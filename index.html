@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <title>UpBurger - Hamburgueria Delivery na Vila Maria</title>
+  <meta name="keywords" content="upBurger,hamburgueria delivery,delivey hamburguer vila maria">
+  <meta name="description" content="Atendemos apenas delivery na região de Vila Maria e proximidades">
+  <meta property="og:description" content="Atendemos apenas delivery na região de Vila Maria e proximidades">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="UpBurger - Hamburgueria Delivery na Vila Maria">
+  <meta property="og:image" content="https://upburger.wapy.com.br/og.png">
+  <meta property="og:url" content="https://upburger.wapy.com.br/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta name="theme-color" content="#FF7F5B">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.png">
+  <link rel="shortcut icon" href="favicon.png">
+  <link rel="canonical" href="https://upburger.wapy.com.br/">
+</head>
+
+<body>
+  <header class="header">
+    <div class="h1 container">
+      <p>Horário de funcionamento: SEX à DOM, das 18:00 às 01:00 hrs. Taxa de Entrega R$ 4,00</p>
+    </div>
+    <div class="h2">
+      <a href="./"><img src="img/logo.png" alt="Logo UpBurger"></a>
+    </div>
+    <div class="h3 container">
+      <nav class="menu">
+        <ul>
+          <li><a href="#cardapio" data-target="#cardapio">Cardápio</a></li>
+          <li><a href="#contato" data-target="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div id="promo" class="container">
+    <div class="loading">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <p class="caption">Carregando ofertas...</p>
+    </div>
+    <ul data-slide="promo-slide">
+      <li class="promo-item">
+        <div class="promo-info">
+          <h1 class="promo-title">UP <span class="green">Salad</span></h1>
+          <p class="from-left"><span class="price-desc">por apenas</span> <span class="price-c">R$</span> <span class="price-d1">7</span><span class="price-d2">,90*</span></p>
+          <p class="info from-left">*Oferta Por Tempo Limitado</p>
+        </div>
+        <div class="promo-img">
+          <img src="img/salad.png" alt="Up Salad">
+        </div>
+      </li>
+
+      <li class="promo-item">
+        <div class="promo-info">
+          <h1 class="promo-title">UP <span class="red">Barbecue</span></h1>
+          <p class="from-left"><span class="price-desc">por apenas</span> <span class="price-c">R$</span> <span class="price-d1">8</span><span class="price-d2">,90*</span></p>
+          <p class="info from-left">*Oferta Por Tempo Limitado</p>
+        </div>
+        <div class="promo-img">
+          <img src="img/barbecue.png" alt="Up Barbecue">
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <div id="cardapio" class="container">
+    <h2 class="title">Nosso Cardápio</h2>
+    <p>Passe o mouse em cima ou toque com o dedo para ver mais informações.</p>
+    <ul class="cards">
+      <li class="card">
+        <div class="card-cover">
+          <div class="back"></div>
+          <div class="front">
+            <h3>Up Barbecue</h3>
+            <img src="img/barbecue.png" alt="UpBarbecue">
+          </div>
+        </div>
+        <div class="card-info">
+          <h3>Ingredientes</h3>
+          <p>Hambúrguer, molho barbecue, maionese, bacon e queijo cheddar</p>
+        </div>
+      </li>
+      <li class="card">
+        <div class="card-cover">
+          <div class="front">
+            <h3>Up Salad</h3>
+            <img src="img/salad.png" alt="UpBarbecue">
+          </div>
+          <div class="back"></div>
+        </div>
+        <div class="card-info">
+          <h3>Ingredientes</h3>
+          <p>Hambúrguer, molho especial, tomate, cebola roxa, alface, maionese e queijo cheddar</p>
+        </div>
+      </li>
+      <li class="card">
+        <div class="card-cover">
+          <div class="front">
+            <h3>Monte o Seu lanche</h3>
+            <p class="d"><span>?</span></p>
+          </div>
+          <div class="back"></div>
+        </div>
+        <div class="card-info">
+          <h3>Ingredientes</h3>
+          <p><strong>Escolha o que colocar:</strong> bacon, ovo, maionese e salada.<br>
+            <strong>Escolha o molho:</strong> barbecue, especial ou cheddar e bacon.</p>
+        </div>
+      </li>
+    </ul>
+    <button class="button orange center" data-target="#contato">FAZER PEDIDO</button>
+  </div>
+
+  <div id="sobre" class="container">
+    <h2 class="title">Sobre</h2>
+    <p>Nascido da vontade de empreender e com poucos recursos surge a <strong>UPBurger Home Delivery</strong>. Com a ideia de servir a região a um <strong>preço justo</strong> e com ingredientes frescos de <strong>ótima qualidade.</strong></p>
+    <p>Com o <strong>custo de entrega baixo</strong>, servimos ótimos lanches para você matar sua fome sem sair de casa.</p>
+  </div>
+
+  <div id="contato" class="container">
+    <h2 class="title">Contato</h2>
+    <form action="mailto:contato@upburger.wapy.com.br" class="dados-cliente" method="POST">
+      <h3>Envie uma mensagem para nós</h3>
+      <div class="cnome field focused">
+        <input type="text" id="nome" placeholder=" " name="nome" required>
+        <div class="label" onclick="this.previousElementSibling.focus();">Digite o seu nome</div>
+      </div>
+      <div class="ctelefone field">
+        <input type="text" id="telefone" placeholder=" " name="telefone" required pattern="\(?\d{1,2}\)?\s?\d{3,5}\s?-?\s?\d{3,5}" title="Digite um telefone válido, ddd sem o 0 + Número do telefone">
+        <div class="label" onclick="this.previousElementSibling.focus();">Digite o seu telefone</div>
+      </div>
+      <div class="cemail field">
+        <input type="email" id="email" placeholder=" " name="email">
+        <div class="label" onclick="this.previousElementSibling.focus();">Digite o seu email</div>
+      </div>
+      <div class="cmsg field">
+        <textarea name="msg" id="msg" placeholder=" " required></textarea>
+        <div class="label" onclick="this.previousElementSibling.focus();">Digite sua mensagem</div>
+      </div>
+      <button type="submit" class="button">ENVIAR</button>
+    </form>
+    <div class="dados-empresa">
+      <h3>Dados para Contato</h3>
+      <ul>
+        <li><img src="img/icon-tel.svg" alt="Ícone Telefone"><a href="tel:+55 (11) 2949-0604">(11) 2949-0604</a></li>
+        <li><img src="img/icon-whats.svg" alt="Ícone WhatsApp"><a href="tel:+55 (11) 93212-6442">(11) 93212-6442</a></li>
+        <li><img src="img/icon-mail.svg" alt="Ícone Email"><a href="mailto:contato@upburger.wapy.com.br">contato@upburger.wapy.com.br</a></li>
+      </ul>
+    </div>
+    <div class="localizacao">
+      <h3>Localização</h3>
+      <p><img src="img/icon-local.svg" alt="Ícone Localização">Rua Taka, 80, Jd Japão - São Paulo - SP</p>
+      <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.7921037964634!2d-46.578016585357275!3d-23.503996565360776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5f4227dd4b63%3A0xf4d1b163f846eea1!2sR.%20Taka%2C%2080%20-%20Jardim%20Japao%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2002124-070!5e0!3m2!1spt-BR!2sbr!4v1584398029031!5m2!1spt-BR!2sbr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="f1"><p>UpBurger - Copyright &copy; Todos os Direitos Reservados</p></div>
+    <div class="f2 container"><p>Desenvolvido por <a href="https://www.wapy.com.br/" target="_blank">Wapy Agência Digital</a></p></div>
+  </footer>
+
+  <!-- Botão Chat do Whats -->
+  <div id="chat">
+    <div class="chat-popup">
+      <h3>Faça o pedido Online</h3>
+      <p>Chama no Whats</p>
+    </div>
+    <a href="https://api.whatsapp.com/send?l=pt_br&amp;text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es.&amp;phone=5511932126442" target="_blank"><img src="img/icon-whats.svg" alt="Ícone Whats"></a>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
